@@ -1,0 +1,384 @@
+/* Standard tags */
+
+body {
+	margin: 1em 6em 1em 6em;
+	padding: 0 0 0 0;
+	background: #ffffff;
+	color: #6d6d6d;
+}
+
+h1, h2, h3, h4 {
+	margin: 0 0 0 0;
+	color: #006ea6;
+}
+
+h1, h2, h3, h4 {
+	margin: 2em 0 0.5em 0;
+}
+
+p, ul, ol {
+	margin: 0.5em 0 0.5em 0em;
+	text-align: justify;
+}
+
+ul {
+	list-style-type: square;
+}
+
+li {
+	margin: 1em 0 1em 0;
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+a:link {
+	color: #0094E0;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	color: #0094E0;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #0094E0;
+}
+
+img {
+	border: none;
+}
+
+/* Custom styles */
+
+/* Valid */
+.valid {
+	text-align: right;
+}
+
+/* Numeration */
+.num {
+	margin-right: 0.8em;
+}
+
+/* Title */
+
+.title {
+	margin-top: 1em;
+	text-align: center;
+	font-size: 2.5em;
+}
+
+.chapternum {
+	font-size: 1em;
+	margin-right: 0.2em;
+	color: #9cc0dc;
+}
+
+/* Author */
+
+.author {
+	text-align: center;
+	font-size: 1.5em;
+}
+.email {
+	text-align: center;
+	font-size: 0.6em;
+	font-family: "Courier New";
+}
+
+.info p {
+	text-align: right;
+	margin: 0 0 0 0;
+}
+
+/* Abstract */
+
+.abstract {
+	font-size: 0.85em;
+	margin: 0 10em 0 10em;
+}
+
+.abstract h1 {
+	margin-top: 1em;
+	text-align: center;
+}
+
+/* Footnotes */
+.footnotes {
+	font-size: 0.9em;
+}
+
+.center {
+	text-align: center;
+}
+
+/* Table of contents */
+
+.toc {
+	font-size: 0.9em;
+}
+
+.child, .subchild , .subsubchild, .subsubsubchild {
+	list-style-type: none;
+	margin: 0 0 0 0;
+}
+
+.child li {
+	margin: 1em 0 0 0;
+}
+
+.subchild li {
+	margin: 0.3em 0 0 0em;
+}
+
+/* Figures */
+
+.figure {
+	text-align: center;
+	margin: 2em 2em 2em 2em;
+}
+
+/* Captions */
+
+.caption {
+	margin: 2em 0 0 0;
+	font-size: 0.9em;
+	text-align: center;
+}
+
+.captionTitle {
+	font-weight: bold;
+	margin-right: 0.5em;
+}
+
+.figure td {
+	font-size: 0.9em;
+}
+
+/* Acronyms */
+.acronyms {
+	text-align: left;
+}
+
+.acronyms table {
+	text-align: left;
+	margin: 0 0 0 2em;
+}
+
+.acronym {
+	font-weight: bold;
+	width: 7em;
+	text-align: left;
+}
+
+/* Listings */
+
+.listing, .algorithm {
+	margin: 2em 2em 2em 2em;
+}
+
+.listing pre, .algorithm pre {
+	border: 1px solid #dddddd;
+	border-left: 5px solid #dddddd;
+	background-color: #eeeeee;
+	padding: 0.5em 1em 0.5em 1em;
+}
+
+.algorithm pre {
+	font-style: italic;
+	font-family: times;
+}
+
+/* Table */
+
+.table {
+	margin: 2em 2em 2em 2em;
+}
+
+.table table {
+	margin: 1em 0 0 0;
+	border: 1px solid #cccccc;
+	font-family: Arial;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.table .noborder {
+	margin: 0 0 0 0;
+	border: 0px solid black;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.even {
+	background-color: white;
+}
+
+.odd {
+	background-color: white;
+}
+
+.table td {
+	padding: 0.5em 1em 0.5em 1em;
+	font-size: 0.8em;
+}
+
+.header {
+	font-weight: bold;
+}
+.header td {
+	border-width: 0px;
+}
+
+.center {
+	text-align: center;
+}
+
+/* Quotes */
+
+.quoteblock {
+	margin: 1em 0 2em 0;
+	text-align: right;
+}
+
+.quoteAuthor, .quote {
+	width: 20em;
+	font-size: 0.9em;
+	text-align: right;
+	margin-left: auto;
+}
+.quote {
+	font-style: italic;
+}
+
+/* Subfigs */
+
+.subfig {
+	text-align: center;
+}
+
+/* Acronyms */
+
+.acronym {
+	margin: 0 0 0 100px;
+}
+
+/* Bibliography */
+
+.bibliography p{
+	margin: 1em 0 0 0;
+	text-align: left;
+}
+
+.code {
+	font-family: "Courier New";
+	font-size: 0.9em;
+}
+
+/* Description */
+
+ul.description {
+	list-style-type: square;
+} 
+
+td div.comp {
+	margin-top: -0.6ex; 
+	margin-bottom: -1ex;
+}
+td div.comb { 
+	margin-top: -0.6ex; 
+	margin-bottom: -.6ex;
+}
+td div.norm {
+	line-height:normal;
+}
+td div.hrcomp { 
+	line-height: 0.9; 
+	margin-top: -0.8ex; 
+	margin-bottom: -1ex;
+}
+td.sqrt {
+	border-top:2 solid black;
+    border-left:2 solid black;
+    border-bottom:none;
+    border-right:none;}
+table.sqrt {
+	border-top:2 solid black;
+    border-left:2 solid black;
+    border-bottom:none;
+    border-right:none;
+}
+
+/* Equations */
+
+.equation {
+	margin: 2em 2em 2em 2em;
+	text-align: center;
+}
+
+.equation table {
+	border: 0px solid black;
+	padding: 0 0 0 0;
+	font-style: italic;
+}
+
+.equation td {
+	text-align: center;
+}
+
+.equationnum {
+	margin-left:2em;
+	font-style: normal;
+}
+
+.leftborder {
+	border-left: 1px solid black;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.rightborder {
+	border-right: 1px solid black;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.bigspace {
+	margin-left:2em;
+}
+
+.normal {
+	font-style: normal;
+}
+
+.symbol {
+	font-family: symbol;
+	font-size: 1.2em;
+}
+
+.tilde {
+	font-size: 1em;
+	position:relative;
+	top:-7pt;
+	right:-5pt;
+}
+
+.subtilde {
+	position:relative;
+	left:-5pt;
+}
+
+.top10 {
+	position:relative;
+	top: -10pt;
+}
+
+.top3 {
+	position:relative;
+	top: -3pt;
+}
+
